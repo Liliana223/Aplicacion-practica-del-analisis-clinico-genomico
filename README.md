@@ -1,15 +1,15 @@
 # Aplicacion-practica-del-analisis-clinico-genomico
 
-## 1.	Inicio del estudio. Se selecciona una enfermedad y se realiza una búsqueda de documentación e información en bases de datos genómicas y fenotípicas, como ClinVar (https://www.ncbi.nlm.nih.gov/clinvar/) o OMIM (https://www.omim.org/), con el objetivo de identificar genes relacionados con el fenotipo de interés.
+1.	Inicio del estudio. Se selecciona una enfermedad y se realiza una búsqueda de documentación e información en bases de datos genómicas y fenotípicas, como ClinVar (https://www.ncbi.nlm.nih.gov/clinvar/) o OMIM (https://www.omim.org/), con el objetivo de identificar genes relacionados con el fenotipo de interés.
 
 Para este análisis, trabajaré con el gen TP53, relacionado con el carcinoma hepatocelular (CHC). Esta patología es causada por una mutación en varios genes, estos incluyen: TP53 MET, CTNNB1, PIK3CA, AXIN1 y APC (1).
 
-## 2.	Obtención de datos. Se realizó una búsqueda en el European Nucleotide Archive (ENA) (https://www.ebi.ac.uk/ena/browser/home) para obtener datos de secuenciación del gen concreto. 
+2.	Obtención de datos. Se realizó una búsqueda en el European Nucleotide Archive (ENA) (https://www.ebi.ac.uk/ena/browser/home) para obtener datos de secuenciación del gen concreto. 
 
 Se obtiene los datos de la siguiente página: 
 https://www.ebi.ac.uk/ena/browser/view/SRX7922608
 
-## 3.	Realizar un control de calidad sobre los datos en Galaxy (https://usegalaxy.org/).
+3.	Realizar un control de calidad sobre los datos en Galaxy (https://usegalaxy.org/).
    
 ### Basic Statistics:
 En esta sección se presentan las características generales de los datos analizados, incluyendo el total de secuencias, la longitud de las secuencias, el porcentaje de contenido de GC, entre otros parámetros relevantes.
@@ -62,7 +62,7 @@ Observamos que se corrigieron los siguientes errores:
 
 Las gráficas del porcentaje de bases muestran alteraciones, posiblemente debido a la alta cantidad de secuencias repetidas.
 
-## 4.	Alineamiento de secuencias. Realizar un alineamiento de secuencias para alinear las secuencias con un genoma de referencia
+4.	Alineamiento de secuencias. Realizar un alineamiento de secuencias para alinear las secuencias con un genoma de referencia
 
 Procedemos a utilizar la herramienta Bowtie2. 
 
@@ -74,7 +74,7 @@ Realizamos el marcado de duplicados para eliminarlos
 
 Finalmente podemos observar las secuencias organizadas y alineadas. En este momento podemos identificar las regiones conservadas.
 
-## 5.	Llamado de variantes. Identificar las variantes genéticas en las secuencias alineadas obtenidas.
+5.	Llamado de variantes. Identificar las variantes genéticas en las secuencias alineadas obtenidas.
 
 Utilizamos la herramienta FreeBayes
 
@@ -88,7 +88,7 @@ Los archivos VCF tienen varias columnas importantes, dentro de estas se encuentr
 •	FILTER: Filtro aplicado a la variante
 •	INFO: Información adicional de la variante (2)
 
-## 6.	Análisis de variantes. Finalmente, utiliza herramientas como Ensembl VEP (https://grch37.ensembl.org/info/docs/tools/vep/index.html) para determinar la patogenicidad de las variantes encontradas, su significado biológico y más información.
+6.	Análisis de variantes. Finalmente, utiliza herramientas como Ensembl VEP (https://grch37.ensembl.org/info/docs/tools/vep/index.html) para determinar la patogenicidad de las variantes encontradas, su significado biológico y más información.
 
 Cargamos el archivo VCF que obtuvimos en Galaxy
 
