@@ -125,15 +125,19 @@ Finalmente podemos observar las secuencias organizadas y alineadas. En este mome
 
 Utilizamos la herramienta FreeBayes
 
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/28.png)
+
 Los archivos VCF tienen varias columnas importantes, dentro de estas se encuentran:
-•	CHROM: Es el cromosoma donde se encuentra ubicada la variante.
-•	POS: Es la posición donde se encuentra ubicada la variante.
-•	ID: Identificador de la variante.
-•	REF: Nucleótido de referencia
-•	ALT: Nucleótido mutado o alternativo.
-•	QUAL: Puntaje numérico que describe la calidad del llamado de la variante.
-•	FILTER: Filtro aplicado a la variante
-•	INFO: Información adicional de la variante (2)
+- CHROM: Es el cromosoma donde se encuentra ubicada la variante.
+- POS: Es la posición donde se encuentra ubicada la variante.
+- ID: Identificador de la variante.
+- REF: Nucleótido de referencia
+- ALT: Nucleótido mutado o alternativo.
+- QUAL: Puntaje numérico que describe la calidad del llamado de la variante.
+- FILTER: Filtro aplicado a la variante
+- INFO: Información adicional de la variante (2)
+
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/29.png)
 
 6.	Análisis de variantes. Finalmente, utiliza herramientas como Ensembl VEP (https://grch37.ensembl.org/info/docs/tools/vep/index.html) para determinar la patogenicidad de las variantes encontradas, su significado biológico y más información.
 
