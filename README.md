@@ -104,11 +104,20 @@ Las gráficas del porcentaje de bases muestran alteraciones, posiblemente debido
 
 Procedemos a utilizar la herramienta Bowtie2. 
 
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/22.png)
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/23.png)
+
 Observamos que las secuencias no se encuentran ordenadas y no se pueden comparar correctamente.
 
 Posteriormente ordenamos con la herramienta Samtools sort 
 
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/24.png)
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/25.png)
+
 Realizamos el marcado de duplicados para eliminarlos
+
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/26.png)
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/27.png)
 
 Finalmente podemos observar las secuencias organizadas y alineadas. En este momento podemos identificar las regiones conservadas.
 
