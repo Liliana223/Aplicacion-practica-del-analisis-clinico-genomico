@@ -4,7 +4,7 @@
 
 Para este análisis, trabajaré con el gen TP53, relacionado con el carcinoma hepatocelular (CHC). Esta patología es causada por una mutación en varios genes, estos incluyen: TP53 MET, CTNNB1, PIK3CA, AXIN1 y APC (1).
 
-![](https://github.com/Liliana223/Aprendizaje_supervisado_y_no_supervisado/blob/main/Imagenes%20Iris/MDS2.png)
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/1.png)
 
 2.	Obtención de datos. Se realizó una búsqueda en el European Nucleotide Archive (ENA) (https://www.ebi.ac.uk/ena/browser/home) para obtener datos de secuenciación del gen concreto. 
 
