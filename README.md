@@ -143,7 +143,6 @@ Los archivos VCF tienen varias columnas importantes, dentro de estas se encuentr
 
 Cargamos el archivo VCF que obtuvimos en Galaxy
 
-![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/30.png)
 ![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/31.png)
 
 Se procesaron un total de 119 variantes, de las cuales 109 (91.6 %) correspondieron a nuevas variantes y 10 (8.4%) eran variantes previamente descritas. La mayoría de las variantes (50%) son del tipo missense, las cuales implican cambios en los aminoácidos de la proteína resultante y pueden afectar tanto su estructura como su función. A continuación, se encuentran las variantes sinónimas, que representan el 31% del total. Estas variantes implican mutaciones en las que el cambio en la secuencia del ADN no altera el aminoácido producido, manteniendo la estructura y función de la proteína.
