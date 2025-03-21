@@ -11,47 +11,69 @@ Para este análisis, trabajaré con el gen TP53, relacionado con el carcinoma he
 Se obtiene los datos de la siguiente página: 
 https://www.ebi.ac.uk/ena/browser/view/SRX7922608
 
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/2.png)
+
 3.	Realizar un control de calidad sobre los datos en Galaxy (https://usegalaxy.org/).
    
 ### Basic Statistics:
 En esta sección se presentan las características generales de los datos analizados, incluyendo el total de secuencias, la longitud de las secuencias, el porcentaje de contenido de GC, entre otros parámetros relevantes.
+
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/3.png)
 
 ### Per base sequence quality:
 Se observa una cantidad significativa de secuencias fuera del rango óptimo, las cuales 
 se encuentran en las áreas roja y naranja de la gráfica. Estas secuencias 
 presentan un score inferior a 28, lo que podría indicar una menor calidad.
 
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/4.png)
+
 ### Per sequence quality scores
 La mayoría de las secuencias presentan una calidad de 33 o inferior, mientras que
 solo una pequeña proporción supera este valor.
+
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/5.png)
 
 ### Per base sequence content
 En esta gráfica, lo esperado sería observar líneas uniformes; sin embargo, se aprecia 
 una considerable variación. Este comportamiento podría deberse a la presencia de 
 adaptadores.
 
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/6.png)
+
 ### Per sequence GC content
 Se identifica una distribución atípica de las secuencias, caracterizada por la presencia 
 de múltiples picos. Esto podría estar asociado a la existencia de secuencias repetidas 
 en los datos analizados.
 
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/7.png)
+
 ### Per base N content
 El contenido de nucleótidos desconocidos es muy bajo
 
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/8.png)
+
 ### Sequence Length Distribution
 La distribución del largo de las secuencias es normal
+
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/9.png)
 
 ### Sequence Duplication Levels
 Se detecta una alta proporción de secuencias repetidas. Por ejemplo, se observa más 
 de 1,000 secuencias que equivalen a aproximadamente el 28% de secuencias.
 
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/10.png)
+
 ### Overrepresented sequences
 Se observa una gran cantidad de secuencias repetidas. Por ejemplo, la primera 
 secuencia de la imagen, se observa 17391 veces.
 
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/11.png)
+
 ### Adapter Content
 Por último, se observa la presencia de algunos adaptadores que no han sido 
 eliminados.
+
+![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/12.png)
 
 Posteriormente realizamos una limpieza de datos con Trimmomatic.
 
