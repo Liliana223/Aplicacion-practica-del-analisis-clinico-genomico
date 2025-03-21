@@ -80,17 +80,17 @@ Posteriormente realizamos una limpieza de datos con Trimmomatic.
 ![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/13.png)
 
 Observamos que se corrigieron los siguientes errores:
-•	Obtenemos las secuencias con mejor calidad
+- Obtenemos las secuencias con mejor calidad
 
 ![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/14.png)
 ![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/15.png)
 ![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/16.png)
 
-•	Logramos solucionar la presencia de adaptadores
+- Logramos solucionar la presencia de adaptadores
 
 ![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/17.png)
 
-•	Se eliminó una cantidad significativa de secuencias duplicadas que no cumplían con los estándares de calidad. No obstante, aún persiste una cantidad considerable de secuencias duplicadas, lo cual se evidencia en las siguientes gráficas.
+- Se eliminó una cantidad significativa de secuencias duplicadas que no cumplían con los estándares de calidad. No obstante, aún persiste una cantidad considerable de secuencias duplicadas, lo cual se evidencia en las siguientes gráficas.
 
 ![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/18.png)
 ![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/19.png)
