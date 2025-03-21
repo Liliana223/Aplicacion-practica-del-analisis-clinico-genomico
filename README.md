@@ -141,7 +141,7 @@ Los archivos VCF tienen varias columnas importantes, dentro de estas se encuentr
 
 6.	Análisis de variantes. Finalmente, utiliza herramientas como Ensembl VEP (https://grch37.ensembl.org/info/docs/tools/vep/index.html) para determinar la patogenicidad de las variantes encontradas, su significado biológico y más información.
 
-Cargamos el archivo VCF que obtuvimos en Galaxy
+Cargamos el archivo VCF que obtuvimos en Galaxy: https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Galaxy37-%5BFreeBayes_on_data_36_(variants)%5D.vcf
 
 ![](https://github.com/Liliana223/Aplicacion-practica-del-analisis-clinico-genomico/blob/main/Imagenes/31.png)
 
